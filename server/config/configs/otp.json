@@ -1,0 +1,20 @@
+{
+    "algorithm": {
+        "doc": "algorithm for otp generation",
+        "format": "String",
+        "default": "sha512",
+        "env": "OTP_ALGORITHM"
+    },
+    "digits": {
+        "doc": "The length of the token",
+        "format": "Number",
+        "default": 6,
+        "env" : "OTP_DIGITS"
+    },
+    "step": {
+        "doc": "Time step (seconds)",
+        "format": "Number",
+        "default": 300,
+        "env": "OTP_STEP"
+    }
+}
